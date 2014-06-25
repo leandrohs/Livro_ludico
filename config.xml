@@ -15,15 +15,17 @@ Leandro Henrique da Silva
 </author>
 
 
-	<gap:platform name="android" />
+
 	<preference name="permissions"                value="none"/>
     <preference name="phonegap-version"           value="3.3.0" />          <!-- all: current version of PhoneGap -->
     <preference name="orientation"                value="default" />        <!-- all: default means both landscape and portrait are enabled -->
     <preference name="target-device"              value="universal" />      <!-- all: possible values handset, tablet, or universal -->
     <preference name="fullscreen"                 value="true" />           <!-- all: hides the status bar at the top of the screen -->
     <preference name="android-minSdkVersion"      value="7" />              <!-- android: MIN SDK version supported on the target device. MAX version is blank by default. -->
-    <preference name="android-installLocation"    value="auto" />    
-
+    <preference name="android-installLocation"    value="auto" />   
+	<preference name="SplashScreen" value="screen" />
+	<preference name="SplashScreenDelay" value="3000" />	
+	<gap:platform name="android" />
     <!-- Define app icon for each platform. -->
 	<platform name="android">
               <icon src="res/android/icon-36-ldpi.png" density="ldpi" />
