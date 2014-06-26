@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <widget xmlns = "http://www.w3.org/ns/widgets"
     xmlns:gap = "http://phonegap.com/ns/1.0"
-    id        = "com.phonegap.livroludico"
+    id        = "com.phonegap.ludiclivro"
     version   = "1.0.0">
 
 <name>LivroLúdico</name>
@@ -25,17 +25,16 @@ Leandro Henrique da Silva
     <preference name="android-installLocation"    value="auto" />   
 	<preference name="SplashScreen" value="screen" />
 	<preference name="SplashScreenDelay" value="3000" />	
-	
-	
 	<gap:platform name="android" />
     <!-- Define app icon for each platform. -->
-	<icon src="res/icon.png" />
-	
+
+  <icon src="res/icon.png" />
+  
 	<platform name="android">
               <icon src="res/icon-36-ldpi.png" density="ldpi" />
               <icon src="res/icon-48-mdpi.png" density="mdpi" />
               <icon src="res/icon-72-hdpi.png" density="hdpi" />
-              <icon src="res/icon-96-xhdpi.png" density="xhdpi" />
+              <icon src="res/android/icon-96-xhdpi.png" density="xhdpi" />
 			  
 			  <splash src="res/screen/screen-ldpi-portrait.png"  density="ldpi" />
               <splash src="res/screen/screen-mdpi-portrait.png"  density="mdpi" />
