@@ -27,11 +27,13 @@ Leandro Henrique da Silva
 	<preference name="SplashScreenDelay" value="3000" />	
 	<gap:platform name="android" />
     <!-- Define app icon for each platform. -->
+	<icon src="res/icon.png" />
+	
 	<platform name="android">
-              <icon src="res/android/icon-36-ldpi.png" density="ldpi" />
-              <icon src="res/android/icon-48-mdpi.png" density="mdpi" />
-              <icon src="res/android/icon-72-hdpi.png" density="hdpi" />
-              <icon src="res/android/icon-96-xhdpi.png" density="xhdpi" />
+              <icon src="res/icon-36-ldpi.png" density="ldpi" />
+              <icon src="res/icon-48-mdpi.png" density="mdpi" />
+              <icon src="res/icon-72-hdpi.png" density="hdpi" />
+              <icon src="res/icon-96-xhdpi.png" density="xhdpi" />
 			  
 			  <splash src="res/screen/screen-ldpi-portrait.png"  density="ldpi" />
               <splash src="res/screen/screen-mdpi-portrait.png"  density="mdpi" />
