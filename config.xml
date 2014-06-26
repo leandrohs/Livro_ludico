@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <widget xmlns = "http://www.w3.org/ns/widgets"
     xmlns:gap = "http://phonegap.com/ns/1.0"
-    id        = "com.phonegap.example"
+    id        = "com.phonegap.livroludico"
     version   = "1.0.0">
 
 <name>LivroLúdico</name>
@@ -25,6 +25,8 @@ Leandro Henrique da Silva
     <preference name="android-installLocation"    value="auto" />   
 	<preference name="SplashScreen" value="screen" />
 	<preference name="SplashScreenDelay" value="3000" />	
+	
+	
 	<gap:platform name="android" />
     <!-- Define app icon for each platform. -->
 	<icon src="res/icon.png" />
